@@ -11,7 +11,9 @@ lettyryn.forEach(l => {
     else earrooLettyryn[l]++;
 });
 
-function prowFockle () {
+function prowFockle (t) {
+    t.target.style.backgroundColor = "darkgrey";
+    setTimeout(() => t.target.style.backgroundColor = "#DDDDDD", 100);
     const aahoiagh = () => {
         setTimeout(() => {
             fysseree.classList.add("fioghey");
