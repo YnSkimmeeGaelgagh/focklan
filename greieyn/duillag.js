@@ -41,7 +41,7 @@ function trogBoayrdOgher () {
             ennym: `ogher-${ogher}`,
             keint: ["ogher", `${ogher != "ENTER" && ogher != "backspace" ? "lettyr" : ogher == "backspace" ? "material-symbols-outlined" : "ogher-elley"}`],
             cheuSthie: [ogher],
-            click: ogher != "ENTER" && ogher != "backspace" ? t => curLettyrStiagh(t) : ogher == "backspace" ? gowLettyrMagh : prowFockle
+            click: ogher != "ENTER" && ogher != "backspace" ? t => curLettyrStiagh(t) : ogher == "backspace" ? t => gowLettyrMagh(t) : t => prowFockle(t)
         }));
         boayrdOgher.append(linney);
     }
@@ -51,5 +51,5 @@ function trogBoayrdOgher () {
 function crooBun () {
     trogAyrn({paarant: true, red: "div", ennym: "saagh-bun", cheuSthie: [
         trogBoayrdOgher()
-    ]})
+    ]});
 }
