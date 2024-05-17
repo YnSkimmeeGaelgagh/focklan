@@ -1,0 +1,55 @@
+function crooFysseree () {
+    trogAyrn({paarant: true, red: "div", ennym: "fysseree", cheuSthie: ["fysseree"]});
+}
+
+function crooBaare () {
+    trogAyrn({paarant: true, red: "div", ennym: "saagh-baare", cheuSthie: [
+        trogAyrn({red: "div", ennym: "ennym-gamman", cheuSthie: ["focklan"]})
+    ]});
+}
+
+function trogMoggyl () {
+    const moggyl = trogAyrn({red: "div", ennym: "moggyl", taishbynys: "grid"});
+    for (let i = 0; i < 6; i++) {
+        const strane = trogAyrn({red: "div", ennym: `strane-${i}`, keint: ["strane"]});
+        moggyl.append(strane);
+        for (let j = 0; j < 5; j++) {
+            strane.append(trogAyrn({red: "div", ennym: `killeen-${i}-${j}`, keint: ["killeen"]}))
+        }
+    }
+    return moggyl;
+};
+
+function crooMean () {
+    trogAyrn({paarant: true, red: "div", ennym: "saagh-mean", cheuSthie: [
+        trogMoggyl()
+    ]})
+}
+
+const ogheryn = [
+    ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P"],
+    ["A", "S", "D", "F", "G", "H", "J", "K", "L"],
+    ["ENTER", "Ç", "C", "V", "B", "N", "M", "backspace"]
+];
+
+function trogBoayrdOgher () {
+    const boayrdOgher = trogAyrn({red: "div", ennym: "boayrd-ogher", taishbynys: "grid"});
+    for (let i = 0; i < ogheryn.length; i++) {
+        const linney = trogAyrn({red: "div", ennym: `linney-${i}`, keint: ["linney"]});
+        for (ogher of ogheryn[i]) linney.append(trogAyrn({
+            red: "div",
+            ennym: `ogher-${ogher}`,
+            keint: ["ogher", `${ogher != "ENTER" && ogher != "backspace" ? "lettyr" : ogher == "backspace" ? "material-symbols-outlined" : "ogher-elley"}`],
+            cheuSthie: [ogher],
+            click: ogher != "ENTER" && ogher != "backspace" ? t => curLettyrStiagh(t) : ogher == "backspace" ? gowLettyrMagh : prowFockle
+        }));
+        boayrdOgher.append(linney);
+    }
+    return boayrdOgher;
+};
+
+function crooBun () {
+    trogAyrn({paarant: true, red: "div", ennym: "saagh-bun", cheuSthie: [
+        trogBoayrdOgher()
+    ]})
+}

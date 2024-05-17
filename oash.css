@@ -1,0 +1,169 @@
+body {
+    box-sizing: border-box;
+    background-color: var(--bane);
+    font-family: Abeezee, sans-serif;
+    color: var(--doo);
+    user-select: none;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+:root {
+    --doo: #555555;
+    --bane: #f5f5f5;
+    --lheeah: #DDDDDD;
+    --jiarg: rgba(255, 69, 0);
+    --gorrym: rgba(0, 191, 255);
+    --glass: #B3D334;
+    --orange: orange;
+    --mooadys-killeen: 60px;
+    --yrjys-ogher: 50px;
+    --lheead-ogher: 30px;
+    --cheeid-oirr: 2px;
+    --corneillyn: 5px;
+    --lheead: 450px;
+    --lheead-crammanyn: 150px;
+    --yrjid-crammanyn: 50px;
+}
+
+#fysseree {
+    position: fixed;
+    visibility: hidden;
+    color: var(--bane);
+    background-color: var(--doo);
+    top: 1rem;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 1rem;
+    border-radius: var(--corneillyn);
+    z-index: 1;
+}
+
+#saagh-baare {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: .5rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#saagh-mean {
+    margin-top: .5rem;
+}
+
+#moggyl {
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(6, var(--mooadys-killeen));
+    justify-content: center;
+    gap: 5px;
+    font-size: 1.5rem;
+}
+
+.strane {
+    display: grid;
+    grid-template-columns: repeat(5, var(--mooadys-killeen));
+    grid-template-rows: 100%;
+    justify-content: center;
+    gap: 5px;
+}
+
+.killeen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border: 2px solid var(--lheeah);
+}
+
+#saagh-bun {
+    margin-top: 2rem;
+}
+
+#boayrd-ogher {
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(3, var(--yrjys-ogher));
+    justify-content: center;
+    justify-items: center;
+    gap: 5px;
+    font-size: 1.5rem;
+}
+
+.linney {
+    display: flex;
+    gap: 5px;
+}
+
+.ogher {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem;
+    height: 100%;
+    background-color: var(--lheeah);
+    border-radius: var(--corneillyn);
+}
+
+.ogher:hover {
+    cursor: pointer;
+}
+
+#ogher-backspace {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.lettyr {
+    width: var(--lheead-ogher);
+}
+
+.neu-chiart {
+    color: var(--bane);
+    background-color: var(--jiarg);
+}
+
+.bunnys {
+    background-color: var(--orange);
+}
+
+.kiart {
+    background-color: var(--glass);
+}
+
+.chyndaa {
+    animation: chyndaa-killeen 0.4s ease-in-out;
+    -webkit-animation: chyndaa-killeen 0.4s ease-in-out;
+}
+
+@keyframes chyndaa-killeen {
+    0% {transform: scaleY(1);}
+    50% {transform: scaleY(0);}
+    100% {transform: scaleY(1);}
+}
+
+.craa {
+    animation: craa .4s ease-in-out;
+    -webkit-animation: craa .4s ease-in-out;
+}
+
+@keyframes craa {
+    0% {transform: translate(-1%);}
+    20% {transform: translate(1%);}
+    40% {transform: translate(-1%);}
+    60% {transform: translate(1%);}
+    80% {transform: translate(-1%);}
+    100% {transform: translate(-0%);}
+}
+
+.fioghey {
+    animation: fioghey 1s ease-in;
+}
+
+@keyframes fioghey {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
