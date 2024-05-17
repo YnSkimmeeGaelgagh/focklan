@@ -12,8 +12,8 @@ lettyryn.forEach(l => {
 });
 
 function prowFockle (t) {
-    t.target.style.backgroundColor = "darkgrey";
-    setTimeout(() => t.target.style.backgroundColor = "#DDDDDD", 100);
+    t.target.classList.add("brooit");
+    setTimeout(() => t.target.classList.remove("brooit"), 100);
     const aahoiagh = () => {
         setTimeout(() => {
             fysseree.classList.add("fioghey");
