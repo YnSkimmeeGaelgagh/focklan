@@ -28,6 +28,21 @@ body {
     --yrjid-crammanyn: 50px;
 }
 
+#screeyn-laadey {
+    position: fixed;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    background-color: var(--doo);
+    color: var(--bane);
+    top: 0;
+    left: 0;
+    font-size: 1.5rem;
+    width: 100dvw;
+    height: 100dvh;
+    z-index: 2;
+}
+
 #fysseree {
     position: fixed;
     visibility: hidden;
@@ -161,6 +176,7 @@ body {
 
 .fioghey {
     animation: fioghey 1s ease-in;
+    -webkit-animation: fioghey 1s ease-in;
 }
 
 @keyframes fioghey {
