@@ -1,8 +1,5 @@
 (function crooDuillag () {
-    crooFysseree();
-    crooBaare();
-    crooMean();
-    crooBun();
+    trogDuillag();
     const screeynLaadey = document.getElementById("screeyn-laadey");
     screeynLaadey.remove();
 })();
