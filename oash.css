@@ -18,14 +18,11 @@ body {
     --gorrym: rgba(0, 191, 255);
     --glass: #B3D334;
     --orange: orange;
-    --mooadys-killeen: 60px;
-    --yrjys-ogher: 50px;
-    --lheead-ogher: 35px;
+    --mooadys-killeen: 3rem;
+    --yrjys-ogher: 2rem;
+    --lheead-ogher: 8%;
     --cheeid-oirr: 2px;
     --corneillyn: 5px;
-    --lheead: 450px;
-    --lheead-crammanyn: 150px;
-    --yrjid-crammanyn: 50px;
 }
 
 #screeyn-laadey {
@@ -56,6 +53,13 @@ body {
     z-index: 1;
 }
 
+#ard-haagh {
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #saagh-baare {
     display: flex;
     justify-content: center;
@@ -66,6 +70,7 @@ body {
 }
 
 #saagh-mean {
+    width: 100%;
     margin-top: .5rem;
 }
 
@@ -73,7 +78,7 @@ body {
     grid-template-columns: 100%;
     grid-template-rows: repeat(6, var(--mooadys-killeen));
     justify-content: center;
-    gap: 5px;
+    gap: .2rem;
     font-size: 1.5rem;
 }
 
@@ -82,7 +87,7 @@ body {
     grid-template-columns: repeat(5, var(--mooadys-killeen));
     grid-template-rows: 100%;
     justify-content: center;
-    gap: 5px;
+    gap: .2rem;
 }
 
 .killeen {
@@ -95,21 +100,27 @@ body {
 }
 
 #saagh-bun {
+    width: 100%;
     margin-top: 2rem;
 }
 
 #boayrd-ogher {
+    width: 100%;
+    display: grid;
     grid-template-columns: 100%;
     grid-template-rows: repeat(3, var(--yrjys-ogher));
     justify-content: center;
     justify-items: center;
-    gap: 5px;
+    gap: .2rem;
     font-size: 1.5rem;
+    padding: 1rem;
 }
 
 .linney {
+    width: 100%;
     display: flex;
-    gap: 5px;
+    gap: .2rem;
+    justify-content: center;
 }
 
 .ogher {
