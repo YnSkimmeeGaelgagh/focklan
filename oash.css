@@ -18,9 +18,9 @@ body {
     --gorrym: rgba(0, 191, 255);
     --glass: #B3D334;
     --orange: orange;
-    --mooadys-killeen: 3rem;
+    --mooadys-killeen: 15vw;
     --yrjys-ogher: 2rem;
-    --lheead-ogher: 8%;
+    --lheead-ogher: 9%;
     --cheeid-oirr: 2px;
     --corneillyn: 5px;
 }
@@ -75,26 +75,29 @@ body {
 }
 
 #moggyl {
-    grid-template-columns: 100%;
-    grid-template-rows: repeat(6, var(--mooadys-killeen));
+    grid-template-rows: repeat(6, 1fr);
     justify-content: center;
+    align-items: center;
     gap: .2rem;
     font-size: 1.5rem;
 }
 
 .strane {
     display: grid;
-    grid-template-columns: repeat(5, var(--mooadys-killeen));
+    grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 100%;
-    justify-content: center;
+    justify-items: center;
     gap: .2rem;
+    height: var(--mooadys-killeen);
+    max-height: 60px;
 }
 
 .killeen {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: var(--mooadys-killeen);
+    max-width: 60px;
     height: 100%;
     border: 2px solid var(--lheeah);
 }
@@ -108,16 +111,18 @@ body {
     width: 100%;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: repeat(3, var(--yrjys-ogher));
+    grid-template-rows: repeat(3, 1fr);
     justify-content: center;
     justify-items: center;
     gap: .2rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding: 1rem;
 }
 
 .linney {
     width: 100%;
+    height: 3.5rem;
+    max-height: 100px;
     display: flex;
     gap: .2rem;
     justify-content: center;
@@ -145,6 +150,7 @@ body {
 
 .lettyr {
     width: var(--lheead-ogher);
+    min-width: 1.6rem;
 }
 
 .neu-chiart {
