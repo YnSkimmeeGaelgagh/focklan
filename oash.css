@@ -211,8 +211,12 @@ body {
 }
 
 @media only screen and (min-height: 800px) and (max-width: 1024px) {
+    #saagh-baare {
+        margin-top: 2rem;
+    }
+    
     #saagh-mean {
         margin-top: 3rem;
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
     }
 }
