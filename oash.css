@@ -32,6 +32,10 @@ li {
     margin-top: 1rem;
 }
 
+li:hover {
+    cursor: pointer;
+}
+
 #screeyn-laadey {
     position: fixed;
     display: flex;
