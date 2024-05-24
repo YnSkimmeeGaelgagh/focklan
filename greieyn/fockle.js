@@ -1,3 +1,6 @@
+const screeynLaadey = document.getElementById("screeyn-laadey");
+document.body.onload = () => screeynLaadey.remove();
+
 const reihFockle = () => {
     const r = Math.floor(Math.random() * rolleyFocklynQueigLetteryn.length);
     return rolleyFocklynQueigLetteryn[r];
