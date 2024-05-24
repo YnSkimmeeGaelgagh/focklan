@@ -5,6 +5,8 @@ body {
     color: var(--doo);
     user-select: none;
     -webkit-user-select: none;
+    padding: 0;
+    margin: 0;
 }
 
 *, *::before, *::after {
@@ -26,6 +28,10 @@ body {
     --corneillyn: 5px;
 }
 
+li {
+    margin-top: 1rem;
+}
+
 #screeyn-laadey {
     position: fixed;
     display: flex;
@@ -39,6 +45,63 @@ body {
     width: 100dvw;
     height: 100dvh;
     z-index: 2;
+}
+
+#claare-cloie {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+    width: 100dvw;
+    height: 100dvh;
+    padding: 2rem;
+    background-color: var(--bane);
+    z-index: 2;
+    overflow-y: scroll;
+}
+
+#saagh-logo {
+    justify-self: start;
+    width: 100px;
+}
+
+#logo {
+    width: 100%;
+}
+
+#fys-gamman {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.cramman-cloie {
+    display: flex;
+    align-items: center;
+    color: var(--bane);
+    background-color:  var(--doo);
+    border-radius: var(--corneillyn);
+    padding: .75rem;
+    margin: 1rem;
+}
+
+#cheu-sthie-roie {
+    width: 100%;
+    text-align: center;
+}
+
+#cramman-dooney {
+    position: relative;
+    top: -1rem;
+    width: 100%;
+    text-align: right;
+}
+
+#saagh-roie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #fysseree {
@@ -71,6 +134,7 @@ body {
     height: 100%;
     padding: .5rem;
     font-size: 2rem;
+    margin-top: .5rem;
     text-align: center;
 }
 
