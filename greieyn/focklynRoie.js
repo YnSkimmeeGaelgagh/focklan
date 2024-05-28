@@ -8,8 +8,8 @@ const focklynRoie = [
     ["ratçh", new Date(2024, 5, 24)],
     ["oayrd", new Date(2024, 5, 25)],
     ["lheim", new Date(2024, 5, 26)],
-    ["jeigh", new Date(2024, 5, 27)]
-    // ["goayr", new Date(2024, 5, 28)]
+    ["jeigh", new Date(2024, 5, 27)],
+    ["goayr", new Date(2024, 5, 28)]
     // ["argid", new Date(2024, 5, 29)],
     // ["ourys", new Date(2024, 5, 30)],
     // ["paays", new Date(2024, 5, 31)],
