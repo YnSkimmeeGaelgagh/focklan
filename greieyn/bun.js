@@ -20,20 +20,20 @@
                     "oo"
                 } laa jeh 
                 ${
-                    f[1].getUTCMonth() == 1 ? "Jerrey Geuree" :
-                    f[1].getUTCMonth() == 2 ? "Toshiaght Arree" :
-                    f[1].getUTCMonth() == 3 ? "Mayrnt" :
-                    f[1].getUTCMonth() == 4 ? "Averil" :
-                    f[1].getUTCMonth() == 5 ? "Boaldyn" :
-                    f[1].getUTCMonth() == 6 ? "Mean Souree" :
-                    f[1].getUTCMonth() == 7 ? "Jerrey Souree" :
-                    f[1].getUTCMonth() == 8 ? "Luanistyn" :
-                    f[1].getUTCMonth() == 9 ? "Mean Fouyir" :
-                    f[1].getUTCMonth() == 10 ? "Jerrey Fouyir" :
-                    f[1].getUTCMonth() == 11 ? "Mee Houney" :
+                    f[1].getMonth() == 1 ? "Jerrey Geuree" :
+                    f[1].getMonth() == 2 ? "Toshiaght Arree" :
+                    f[1].getMonth() == 3 ? "Mayrnt" :
+                    f[1].getMonth() == 4 ? "Averil" :
+                    f[1].getMonth() == 5 ? "Boaldyn" :
+                    f[1].getMonth() == 6 ? "Mean Souree" :
+                    f[1].getMonth() == 7 ? "Jerrey Souree" :
+                    f[1].getMonth() == 8 ? "Luanistyn" :
+                    f[1].getMonth() == 9 ? "Mean Fouyir" :
+                    f[1].getMonth() == 10 ? "Jerrey Fouyir" :
+                    f[1].getMonth() == 11 ? "Mee Houney" :
                     "Mee ny Nollick"
                 },
-                ${f[1].getUTCFullYear()}`],
+                ${f[1].getFullYear()}`],
                 click: () => {
                     fockle = f[0];
                     claareCloie.remove();
