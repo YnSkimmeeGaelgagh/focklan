@@ -7,14 +7,14 @@
         focklynRoie.forEach(f => {
             const g = trogAyrn({red: "li", cheuSthie: [
                 `yn ${f[1].getUTCDate() + 1}${
-                    f[1].getUTCDate() == 1
+                    f[1].getUTCDate() + 1 == 1
                         || f[1].getUTCDate() + 1 == 11
                         || f[1].getUTCDate() + 1 == 21
                         || f[1].getUTCDate() + 1 == 31 ? "ed" :
-                    f[1].getUTCDate() == 2
+                    f[1].getUTCDate() + 1 == 2
                         || f[1].getUTCDate() + 1 == 12
                         || f[1].getUTCDate() + 1 == 22 ? "ah" :
-                    f[1].getUTCDate() == 3
+                    f[1].getUTCDate() + 1 == 3
                         || f[1].getUTCDate() + 1 == 13
                         || f[1].getUTCDate() + 1 == 23 ? "ss" :
                     "oo"
