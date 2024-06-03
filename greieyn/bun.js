@@ -17,10 +17,6 @@
                     f[1].getUTCDate() == 3
                         || f[1].getUTCDate() + 1 == 13
                         || f[1].getUTCDate() + 1 == 23 ? "ss" :
-                    f[1].getUTCDate() + 1 == 11 ? "ed" :
-                    f[1].getUTCDate() + 1 == 12 ? "ah" :
-                    f[1].getUTCDate() + 1 == 13 ? "ss" :
-                    f[1].getUTCDate() + 1 == 21 ? "ss" :
                     "oo"
                 } laa jeh 
                 ${
