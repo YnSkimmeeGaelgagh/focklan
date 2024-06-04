@@ -20,12 +20,12 @@
                     "oo"
                 } laa jeh 
                 ${
-                    f[1].getMonth() == 0 ? "Jerrey Geuree" :
-                    f[1].getMonth() == 1 ? "Toshiaght Arree" :
-                    f[1].getMonth() == 2 ? "Mayrnt" :
-                    f[1].getMonth() == 3 ? "Averil" :
-                    f[1].getMonth() == 4 ? "Boaldyn" :
-                    f[1].getMonth() == 5 ? "Mean Souree" :
+                    f[1].getMonth() == 1 ? "Jerrey Geuree" :
+                    f[1].getMonth() == 2 ? "Toshiaght Arree" :
+                    f[1].getMonth() == 3 ? "Mayrnt" :
+                    f[1].getMonth() == 4 ? "Averil" :
+                    f[1].getMonth() == 5 ? "Boaldyn" :
+                    f[1].getMonth() == 6 ? "Mean Souree" :
                     f[1].getMonth() == 7 ? "Jerrey Souree" :
                     f[1].getMonth() == 8 ? "Luanistyn" :
                     f[1].getMonth() == 9 ? "Mean Fouyir" :
