@@ -17,8 +17,8 @@ const focklynRoie = [
     ["dhone", new Date(2024, 6, 2)],
     ["flurt", new Date(2024, 6, 3)],
     ["heose", new Date(2024, 6, 4)],
-    ["kiune", new Date(2024, 6, 5)]
-    // ["meoir", new Date(2024, 6, 6)],
+    ["kiune", new Date(2024, 6, 5)],
+    ["meoir", new Date(2024, 6, 6)]
     // ["imbea", new Date(2024, 6, 7)],
     // ["queig", new Date(2024, 6, 8)],
     // ["skeet", new Date(2024, 6, 9)],
