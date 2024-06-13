@@ -24,5 +24,6 @@ const focklynRoie = [
     ["skeet", new Date("2024, 6, 9")],
     ["rouan", new Date("2024, 6, 10")],
     ["cronk", new Date("2024, 6, 11")],
-    ["ammyr", new Date("2024, 6, 12")]
+    ["ammyr", new Date("2024, 6, 12")],
+    ["çhiow", new Date("2024, 6, 13")]
 ];
