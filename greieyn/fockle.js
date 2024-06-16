@@ -6,7 +6,7 @@ const reihFockle = () => {
     return rolleyFocklynQueigLetteryn[r];
 };
 // console.log(reihFockle());
-let fockle = "breck";
+let fockle = "quail";
 const lettyryn = fockle.split("");
 let earrooLettyryn = {};
 lettyryn.forEach(l => {
