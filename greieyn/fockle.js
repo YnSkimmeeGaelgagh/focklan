@@ -1,12 +1,9 @@
-const screeynLaadey = document.getElementById("screeyn-laadey");
-document.body.onload = () => screeynLaadey.remove();
-
 const reihFockle = () => {
     const r = Math.floor(Math.random() * rolleyFocklynQueigLetteryn.length);
     return rolleyFocklynQueigLetteryn[r];
 };
-// console.log(reihFockle());
-let fockle = "ruagh";
+
+fockle = fockle ? fockle : "ruagh";
 const lettyryn = fockle.split("");
 let earrooLettyryn = {};
 lettyryn.forEach(l => {
@@ -117,4 +114,4 @@ function prowFockle (t) {
         else setTimeout(prowKiart, 400);
     }
     prowLettyr();
-}
+};
