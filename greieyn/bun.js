@@ -1,7 +1,22 @@
+let fockle = "";
+
+function laadFockle () {
+    const scriptFockle = document.createElement("script");
+    scriptFockle.src = "greieyn/shennFockle.js";
+    document.body.append(scriptFockle);
+    scriptFockle.onload = () => {
+        const screeynLaadey = document.getElementById("screeyn-laadey");
+        screeynLaadey.remove();
+    };
+};
+
 (function crooDuillag () {
     const claareCloie = trogAyrn({red: "div", ennym: "claare-cloie"});
     document.body.append(claareCloie);
-    const dooneyClaareCloie = () => claareCloie.remove();
+    const dooneyClaareCloie = () => {
+        claareCloie.remove();
+        laadFockle();
+    };
     function fowFocklynRoie () {
         let ayrnyn = [];
         focklynRoie.forEach(f => {
@@ -17,8 +32,12 @@
                     f[1].getDate() == 3
                         || f[1].getDate() == 13
                         || f[1].getDate() == 23 ? "ss" :
+                    f[1].getDate() == 11 ? "ed" :
+                    f[1].getDate() == 12 ? "ah" :
+                    f[1].getDate() == 13 ? "ss" :
+                    f[1].getDate() == 21 ? "ss" :
                     "oo"
-                } laa jeh
+                } laa jeh 
                 ${
                     f[1].getMonth() == 0 ? "Jerrey Geuree" :
                     f[1].getMonth() == 1 ? "Toshiaght Arree" :
@@ -37,6 +56,7 @@
                 click: () => {
                     fockle = f[0];
                     claareCloie.remove();
+                    laadFockle();
                 }
             });
             ayrnyn.push(g);
