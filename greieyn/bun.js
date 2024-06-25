@@ -2,7 +2,7 @@ let fockle = "";
 
 function laadFockle () {
     const scriptFockle = document.createElement("script");
-    scriptFockle.src = "greieyn/fockle.js";
+    scriptFockle.src = "greieyn/shennFockle.js";
     document.body.append(scriptFockle);
     scriptFockle.onload = () => {
         const screeynLaadey = document.getElementById("screeyn-laadey");
@@ -75,7 +75,7 @@ function laadFockle () {
                 }),
                 trogAyrn({red: "div", cheuSthie:["PAST GAMES"]})
             ]}),
-            trogAyrn({red: "ul", ennym: "rolley-roie", cheuSthie: [trogAyrn: {red: "div", keint: ["shenn-ghamman"], cheuSthie: fowFocklynRoie()}]})
+            trogAyrn({red: "ul", ennym: "rolley-roie", cheuSthie: fowFocklynRoie()})
         ]});
         claareCloie.append(gammanynRoie);
     };
