@@ -32,10 +32,6 @@ li {
     margin-top: 1rem;
 }
 
-li:hover {
-    cursor: pointer;
-}
-
 #screeyn-laadey {
     position: fixed;
     display: flex;
@@ -271,6 +267,10 @@ li:hover {
 .fioghey {
     animation: fioghey 1s ease-in;
     -webkit-animation: fioghey 1s ease-in;
+}
+
+li:hover {
+    cursor: pointer;
 }
 
 @keyframes fioghey {
