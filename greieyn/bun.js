@@ -75,7 +75,7 @@ function laadFockle () {
                 }),
                 trogAyrn({red: "div", cheuSthie:["PAST GAMES"]})
             ]}),
-            trogAyrn({red: "ul", ennym: "rolley-roie", cheuSthie: fowFocklynRoie()})
+            trogAyrn({red: "ul", ennym: "rolley-roie", cheuSthie: [trogAyrn: {red: "div", keint: ["shenn-ghamman"], cheuSthie: fowFocklynRoie()}]})
         ]});
         claareCloie.append(gammanynRoie);
     };
