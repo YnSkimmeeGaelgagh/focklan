@@ -2,7 +2,7 @@ let fockle = "";
 
 function laadFockle () {
     const scriptFockle = document.createElement("script");
-    scriptFockle.src = "greieyn/shennFockle.js";
+    scriptFockle.src = "greieyn/fockle.js";
     document.body.append(scriptFockle);
     scriptFockle.onload = () => {
         const screeynLaadey = document.getElementById("screeyn-laadey");
