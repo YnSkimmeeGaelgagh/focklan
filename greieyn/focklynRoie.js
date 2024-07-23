@@ -64,5 +64,6 @@ const focklynRoie = [
     ["fowan", new Date("2024, 7, 19")],
     ["floag", new Date("2024, 7, 20")],
     ["kialg", new Date("2024, 7, 21")],
-    ["awree", new Date("2024, 7, 22")]
+    ["awree", new Date("2024, 7, 22")],
+    ["idley", new Date("2024, 7, 23")]
 ];
