@@ -91,5 +91,5 @@ const focklynRoie = [
     ["jeaid", new Date("2024, 8, 15")],
     ["çhion", new Date("2024, 8, 16")],
     ["yeelt", new Date("2024, 8, 17")],
-    ["arran", new Date("2024, 8, 18")]
+    ["foall", new Date("2024, 8, 18")]
 ];
