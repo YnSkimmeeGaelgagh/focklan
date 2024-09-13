@@ -478,7 +478,6 @@ const rolleyFocklynQueigLetteryn = [
     "etlan",
     "etlee",
     "etlin",
-    "ettag",
     "ettyl",
     "euish",
     "eulys",
