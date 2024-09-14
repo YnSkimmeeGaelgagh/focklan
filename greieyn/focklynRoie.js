@@ -112,4 +112,5 @@ const focklynRoie = [
     ["jialg", new Date("2024, 9, 5")],
     ["gioal", new Date("2024, 9, 7")],
     ["imman", new Date("2024, 9, 8")],
+    ["ynsym", new Date("2024, 9, 13")]
 ];
