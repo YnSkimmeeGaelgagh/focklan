@@ -3,7 +3,7 @@ const reihFockle = () => {
     return rolleyFocklynQueigLetteryn[r];
 };
 
-fockle = fockle ? fockle : "erroo";
+fockle = fockle ? fockle : "daill";
 const lettyryn = fockle.split("");
 let earrooLettyryn = {};
 lettyryn.forEach(l => {
