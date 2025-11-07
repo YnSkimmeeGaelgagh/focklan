@@ -6,7 +6,7 @@ const reihFockle = () => {
 let f_count = 0;
 
 function faikFockle (taghyrt) {
-    console.log(f_count);
+    console.log(taghyrt, taghyrt.key);
     if (taghyrt.key === "f") {
         f_count++;
         if (f_count == 6) alert(fockle);
