@@ -9,8 +9,10 @@ function faikFockle (taghyrt) {
     console.log(taghyrt, taghyrt.key);
     if (taghyrt.key === "f") {
         f_count++;
-        if (f_count == 6) alert(fockle);
-        f_count = 0;
+        if (f_count == 6) {
+            alert(fockle);
+            f_count = 0;
+        };
     };
 };
 
