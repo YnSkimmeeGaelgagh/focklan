@@ -5,15 +5,15 @@ const reihFockle = () => {
 
 let f_count = 0;
 
-function faikFockle () {
-    window.addEventListener("keydown", taghyrt => {
-        if (taghyrt.key === "f") {
-            f_count++;
-            if (f_count == 6) alert(fockle);
-            f_count = 0;
-        };
-    });
+function faikFockle (taghyrt) {
+    if (taghyrt.key === "f") {
+        f_count++;
+        if (f_count == 6) alert(fockle);
+        f_count = 0;
+    };
 };
+
+window.addEventListener("keydown", faikFockle);
 
 fockle = reihFockle();
 const lettyryn = fockle.split("");
