@@ -4,7 +4,6 @@ const reihFockle = () => {
 };
 
 fockle = reihFockle();
-console.log(fockle);
 const lettyryn = fockle.split("");
 let earrooLettyryn = {};
 lettyryn.forEach(l => {
