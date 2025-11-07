@@ -3,6 +3,18 @@ const reihFockle = () => {
     return rolleyFocklynQueigLetteryn[r];
 };
 
+let f_count = 0;
+
+function faikFockle () {
+    window.addEventListener("keydown", taghyrt => {
+        if (taghyrt.key === "f") {
+            f_count++;
+            if (f_count == 6) alert(fockle);
+            f_count = 0;
+        };
+    });
+};
+
 fockle = reihFockle();
 const lettyryn = fockle.split("");
 let earrooLettyryn = {};
